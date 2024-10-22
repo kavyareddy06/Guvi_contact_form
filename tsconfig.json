@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es5", // Target ECMAScript version
+    "lib": [
+      "es2015", // Include ES2015 for Promise and other features
+      "dom" // Include DOM library for browser APIs
+    ],
+    "strict": true, // Enable all strict type-checking options
+    "esModuleInterop": true, // Enable compatibility with ES modules
+    "skipLibCheck": true // Skip type checking of declaration files
+  },
+  "include": [
+    "script.ts" // Specify your TypeScript file(s) here
+  ],
+  "exclude": [
+    "node_modules" // Exclude the node_modules directory
+  ]
+}

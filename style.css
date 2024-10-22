@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contact-container {
+    display: flex;
+    
+}
+
+.contact-info, .contact-form {
+    padding: 20px;
+}
+.contact-form{
+    background: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    padding-right: 50px;
+    width: 300px;
+    padding-left: 40px;
+}
+.contact-info {
+    border-right: 2px solid #e0e0e0;
+    max-width: 450px;
+    padding-right: 40px;
+
+}
+
+.contact-form h2 {
+    margin-bottom: 10px;
+    color: #2b9348;
+}
+.contact-info p{
+    font-size:medium;
+}
+
+.contact-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+.call-section {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.call-section img{
+    width: 50px;
+}
+.call-icon {
+    width: 30px;
+    margin-right: 10px;
+    padding-right: 30px;
+}
+.call-text {
+    font-size: 15px;
+    color: grey;
+}
+.phone-number {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+.mail-section {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.mail-section img{
+    width: 50px;
+}
+.mail-icon {
+    width: 30px;
+    height: 60px;
+    margin-right: 10px;
+    padding-right: 30px;
+}
+.mail-text {
+    font-size: 15px;
+    color: grey;
+}
+.mail {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+.mail a{
+    text-decoration: none;
+    color: black;
+}
+.address-section {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.address-section img{
+    width: 50px;
+}
+.address-icon {
+    width: 30px;
+    height: 60px;
+    margin-right: 10px;
+    padding-right: 30px;
+}
+.address-text {
+    font-size: 15px;
+    color: grey;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #2b9348;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #238837;
+}
+
+
+input.invalid, textarea.invalid {
+    border: 2px solid rgb(245, 153, 153);
+    color: red; 
+}
+
+input::placeholder, textarea::placeholder {
+    color: rgb(226, 213, 213); 
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: -8px;
+    margin-bottom: 10px;
+    display: none; 
+}
+
+input:invalid + .error-message,
+textarea:invalid + .error-message {
+    display: block; 
+}
